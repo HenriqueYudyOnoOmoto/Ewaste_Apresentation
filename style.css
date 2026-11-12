@@ -161,13 +161,6 @@ html, body {
   align-items: stretch;
 }
 
-.grid-4-cols {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 1.25rem;
-  align-items: stretch;
-}
-
 .concept-intro-card, .definition-card, .line-box, .metric-panel, .cause-card,
 .danger-panel, .action-card, .fase-column, .takeaway-box, .cover-metric-chip,
 .ratio-bar-box, .outro-quote-card {
@@ -448,7 +441,6 @@ body[data-aspect="portrait"] .lines-row {
   gap: 0.65rem;
 }
 body[data-aspect="portrait"] .cover-metrics-preview,
-body[data-aspect="portrait"] .grid-4-cols,
 body[data-aspect="portrait"] .grid-3-cols,
 body[data-aspect="portrait"] .grid-2-cols,
 body[data-aspect="portrait"] .matrix-split-2x2,
