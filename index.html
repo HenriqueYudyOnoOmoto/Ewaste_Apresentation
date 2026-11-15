@@ -13,80 +13,78 @@
 
   <main class="slides-container" id="slidesContainer">
 
+    <!-- Slide 0: Cover -->
     <section class="slide-section cover-slide" id="slide-cover" data-index="0">
       <div class="slide-wrapper cover-wrapper">
         <header>
           <h1 class="cover-title">
             E-Waste: The Problem <br>
-            <span class="cover-highlight texto-amarelo">Hidden in Our Drawers</span>
+            <span style="color: var(--amber);">Hidden in Our Drawers</span>
           </h1>
           <p class="cover-subtitle">
             What your phone is made of, how much earth it costs, and what science and you can do.
           </p>
         </header>
-        <ul class="cover-metrics-preview">
-          <li class="cover-metric-chip borda-vermelha">
-            <strong class="cm-val texto-vermelho">62 million tons</strong>
-            <small class="cm-label">Global Volume / Year</small>
+        <ul class="cover-metrics">
+          <li class="metric-chip">
+            <strong style="color: var(--red);">62 million tons</strong>
+            <small>Global Volume / Year</small>
           </li>
-          <li class="cover-metric-chip borda-amarela">
-            <strong class="cm-val texto-amarelo">10 to 15 kg</strong>
-            <small class="cm-label">Rock per Phone</small>
+          <li class="metric-chip">
+            <strong style="color: var(--amber);">10 to 15 kg</strong>
+            <small>Rock per Phone</small>
           </li>
-          <li class="cover-metric-chip borda-verde">
-            <strong class="cm-val texto-verde">900 million tons</strong>
-            <small class="cm-label">Rock saved (UN estimate)</small>
+          <li class="metric-chip">
+            <strong style="color: var(--emerald);">900 million tons</strong>
+            <small>Rock saved (UN estimate)</small>
           </li>
         </ul>
       </div>
     </section>
 
+    <!-- Slide 1: What the phone is made of -->
     <section class="slide-section" id="slide-1" data-index="1">
       <div class="slide-wrapper">
-        <header class="section-title-group">
-          <h2 class="section-title">📱 Slide 1 &bull; <span class="texto-azul">What the Phone is Made Of</span></h2>
-          <p class="section-subtitle">The amount of metals in a device and what the main ones are used for.</p>
+        <header class="slide-header">
+          <h2 class="slide-title">📱 Slide 1 &bull; <span style="color: var(--cyan);">What the Phone is Made Of</span></h2>
+          <p class="slide-subtitle">The amount of metals in a device and what the main ones are used for.</p>
         </header>
 
-        <div class="grid-2-cols">
-          <article class="concept-intro-card borda-azul">
-            <small class="concept-tag texto-azul">Overview</small>
-            <h3 class="concept-title">Metals in Your Phone</h3>
-            <p class="concept-desc">
-              About one quarter of your phone's weight is metal (estimate):
-            </p>
+        <div class="grid-2">
+          <article class="card">
+            <small class="badge" style="color: var(--cyan);">Overview</small>
+            <h3>Metals in Your Phone</h3>
+            <p>About one quarter of your phone's weight is metal (estimate):</p>
 
-            <ul class="layer-stack" style="flex: 1; justify-content: center; gap: 1rem;">
-              <li class="layer-item" style="padding: 1.1rem 1.25rem;">
-                <h4 class="layer-item-title texto-azul" style="font-size: 1.1rem; margin-bottom: 0.35rem;">About 40 to 50 grams of metal</h4>
-                <p class="layer-item-desc" style="font-size: 0.9rem;">About 22% to 28% of the phone's weight (estimate).</p>
+            <ul class="item-list" style="flex: 1; justify-content: center; gap: 1rem;">
+              <li class="item" style="padding: 1.1rem 1.25rem;">
+                <h4 style="color: var(--cyan); font-size: 1.1rem; margin-bottom: 0.35rem;">About 40 to 50 grams of metal</h4>
+                <p style="font-size: 0.9rem;">About 22% to 28% of the phone's weight (estimate).</p>
               </li>
-              <li class="layer-item" style="padding: 1.1rem 1.25rem;">
-                <h4 class="layer-item-title texto-verde" style="font-size: 1.1rem; margin-bottom: 0.35rem;">Dozens of chemical elements</h4>
-                <p class="layer-item-desc" style="font-size: 0.9rem;">Many elements of the periodic table, in the palm of your hand.</p>
+              <li class="item" style="padding: 1.1rem 1.25rem;">
+                <h4 style="color: var(--emerald); font-size: 1.1rem; margin-bottom: 0.35rem;">Dozens of chemical elements</h4>
+                <p style="font-size: 0.9rem;">Many elements of the periodic table, in the palm of your hand.</p>
               </li>
             </ul>
           </article>
 
-          <article class="definition-card borda-amarela">
-            <small class="concept-tag texto-amarelo">What They Do</small>
-            <h3 class="concept-title">The Function of Each Metal</h3>
-            <p class="concept-desc">
-              The practical role of each metal in everyday phone operation:
-            </p>
+          <article class="card">
+            <small class="badge" style="color: var(--amber);">What They Do</small>
+            <h3>The Function of Each Metal</h3>
+            <p>The practical role of each metal in everyday phone operation:</p>
 
-            <ul class="layer-stack">
-              <li class="layer-item">
-                <h4 class="layer-item-title texto-amarelo">Copper (~16 g) &bull; Electricity</h4>
-                <p class="layer-item-desc">Carries electricity and signals through the whole phone.</p>
+            <ul class="item-list">
+              <li class="item">
+                <h4 style="color: var(--amber);">Copper (~16 g) &bull; Electricity</h4>
+                <p>Carries electricity and signals through the whole phone.</p>
               </li>
-              <li class="layer-item">
-                <h4 class="layer-item-title texto-amarelo">Gold (14 to 34 mg) &bull; Safe Contacts</h4>
-                <p class="layer-item-desc">Does not rust, so the connections keep working well.</p>
+              <li class="item">
+                <h4 style="color: var(--amber);">Gold (14 to 34 mg) &bull; Safe Contacts</h4>
+                <p>Does not rust, so the connections keep working well.</p>
               </li>
-              <li class="layer-item">
-                <h4 class="layer-item-title texto-azul">Palladium (~15 mg) &bull; Small Parts</h4>
-                <p class="layer-item-desc">Used in tiny parts that hold electricity.</p>
+              <li class="item">
+                <h4 style="color: var(--cyan);">Palladium (~15 mg) &bull; Small Parts</h4>
+                <p>Used in tiny parts that hold electricity.</p>
               </li>
             </ul>
           </article>
@@ -94,78 +92,74 @@
       </div>
     </section>
 
+    <!-- Slide 2: How much earth is in a phone -->
     <section class="slide-section" id="slide-2" data-index="2">
       <div class="slide-wrapper">
-        <header class="section-title-group">
-          <h2 class="section-title">🥇 Slide 2 &bull; <span class="texto-amarelo">How Much Earth is in a Phone</span></h2>
-          <p class="section-subtitle">The massive disproportion between mined rock and the final product.</p>
+        <header class="slide-header">
+          <h2 class="slide-title">🥇 Slide 2 &bull; <span style="color: var(--amber);">How Much Earth is in a Phone</span></h2>
+          <p class="slide-subtitle">The massive disproportion between mined rock and the final product.</p>
         </header>
 
-        <div class="grid-2-cols" style="margin-bottom: 1.25rem;">
-          <article class="metric-panel borda-amarela">
-            <small class="metric-category">1. Gold in the Device</small>
-            <strong class="metric-figure texto-amarelo">14 to 34 mg</strong>
-            <h3 class="metric-heading">About the weight of a grain of rice (rough comparison)</h3>
-            <p class="metric-detail">The amount of gold inside one phone, in contacts and chips.</p>
+        <div class="grid-2" style="margin-bottom: 1.25rem;">
+          <article class="card">
+            <small class="badge">1. Gold in the Device</small>
+            <strong class="stat-figure" style="color: var(--amber);">14 to 34 mg</strong>
+            <h3>About the weight of a grain of rice (rough comparison)</h3>
+            <p>The amount of gold inside one phone, in contacts and chips.</p>
           </article>
 
-          <article class="metric-panel borda-vermelha">
-            <small class="metric-category">2. Total Rock</small>
-            <strong class="metric-figure texto-vermelho">10 to 15 kg</strong>
-            <h3 class="metric-heading">Rock per Phone</h3>
-            <p class="metric-detail">Studies estimate that each smartphone needs 10 to 15 kg of mined rock.</p>
+          <article class="card">
+            <small class="badge">2. Total Rock</small>
+            <strong class="stat-figure" style="color: var(--red);">10 to 15 kg</strong>
+            <h3>Rock per Phone</h3>
+            <p>Studies estimate that each smartphone needs 10 to 15 kg of mined rock.</p>
           </article>
         </div>
 
-        <aside class="ratio-bar-box borda-vermelha">
-          <header class="ratio-label-row">
-            <h3 class="ratio-title">Global Scale: about 1.4 billion new phones per year (estimate)</h3>
-            <span class="ratio-values"><strong class="texto-vermelho">14 to 21 million tons</strong> of rock</span>
+        <aside class="ratio-box">
+          <header class="ratio-header">
+            <h3>Global Scale: about 1.4 billion new phones per year (estimate)</h3>
+            <span class="ratio-values"><strong style="color: var(--red);">14 to 21 million tons</strong> of rock</span>
           </header>
-          <p class="panel-text" style="margin-top: 0.4rem; color: var(--text-muted);">
+          <p style="margin-top: 0.4rem; color: var(--text-muted); font-size: 0.88rem;">
             Making 1.4 billion phones per year needs about 14 to 21 million tons of rock, just for smartphones (our estimate).
           </p>
         </aside>
       </div>
     </section>
 
+    <!-- Slide 3: The Three Dangers -->
     <section class="slide-section" id="slide-3" data-index="3">
       <div class="slide-wrapper">
-        <header class="section-title-group">
-          <h2 class="section-title">☣️ Slide 3 &bull; <span class="texto-vermelho">The Three Dangers</span></h2>
-          <p class="section-subtitle">Chemical threats that happen when e-waste is discarded in common trash or open dumps.</p>
+        <header class="slide-header">
+          <h2 class="slide-title">☣️ Slide 3 &bull; <span style="color: var(--red);">The Three Dangers</span></h2>
+          <p class="slide-subtitle">Chemical threats that happen when e-waste is discarded in common trash or open dumps.</p>
         </header>
 
-        <div class="grid-3-cols">
-          <article class="danger-panel borda-vermelha">
-            <small class="panel-header-badge texto-vermelho">🧪 Chemical Contamination</small>
-            <h3 class="panel-heading">Dangerous Materials</h3>
-            <p class="panel-text">
-              Lead, mercury, and cadmium can be found in old electronics.
-            </p>
-            <aside class="warning-callout callout-vermelho">
+        <div class="grid-3">
+          <article class="card">
+            <small class="badge" style="color: var(--red);">🧪 Chemical Contamination</small>
+            <h3>Dangerous Materials</h3>
+            <p>Lead, mercury, and cadmium can be found in old electronics.</p>
+            <aside class="callout" style="border-left-color: var(--red);">
               It absorved by the body over time and can cause serious health problems.
             </aside>
           </article>
 
-          <article class="danger-panel borda-amarela">
-            <small class="panel-header-badge texto-amarelo">💧 Water Contamination</small>
-            <h3 class="panel-heading">Water Pollution</h3>
-            <p class="panel-text">
-              The rain fall over e-waste and carries toxic chemicals into the soil.
-            </p>
-            <aside class="warning-callout callout-amarelo">
+          <article class="card">
+            <small class="badge" style="color: var(--amber);">💧 Water Contamination</small>
+            <h3>Water Pollution</h3>
+            <p>The rain fall over e-waste and carries toxic chemicals into the soil.</p>
+            <aside class="callout" style="border-left-color: var(--amber);">
               This dark liquid can reach groundwater.
             </aside>
           </article>
 
-          <article class="danger-panel borda-vermelha">
-            <small class="panel-header-badge texto-vermelho">🔥 Atmospheric Pollution</small>
-            <h3 class="panel-heading">Burning material Makes Dangerous Smoke</h3>
-            <p class="panel-text">
-              Burning wires outside to get copper makes smoke with very dangerous chemicals.
-            </p>
-            <aside class="warning-callout callout-vermelho">
+          <article class="card">
+            <small class="badge" style="color: var(--red);">🔥 Atmospheric Pollution</small>
+            <h3>Burning material Makes Dangerous Smoke</h3>
+            <p>Burning wires outside to get copper makes smoke with very dangerous chemicals.</p>
+            <aside class="callout" style="border-left-color: var(--red);">
               Your can develop the risk of cancer. Toxic smoke moves with the wind and harms nearby people.
             </aside>
           </article>
@@ -173,290 +167,271 @@
       </div>
     </section>
 
+    <!-- Slide 4: The Size of the Problem -->
     <section class="slide-section" id="slide-4" data-index="4">
       <div class="slide-wrapper">
-        <header class="section-title-group">
-          <h2 class="section-title">🌍 Slide 4 &bull; <span class="texto-vermelho">The Size of the Problem</span></h2>
-          <p class="section-subtitle">The big contrast between the waste we make and the waste we recycle in a documented way.</p>
+        <header class="slide-header">
+          <h2 class="slide-title">🌍 Slide 4 &bull; <span style="color: var(--red);">The Size of the Problem</span></h2>
+          <p class="slide-subtitle">The big contrast between the waste we make and the waste we recycle in a documented way.</p>
         </header>
 
-        <div class="grid-2-cols" style="margin-bottom: 1.25rem;">
-          <article class="metric-panel borda-vermelha">
-            <small class="metric-category">World (Global E-waste Monitor 2024, data from 2022)</small>
-            <strong class="metric-figure texto-vermelho">62 million tons</strong>
-            <h3 class="metric-heading">7.8 kg per Person / Year</h3>
-            <p class="metric-detail">
-              E-waste is growing fast, but documented recycling is not grown in same rhythm.
-            </p>
-            <aside class="warning-callout callout-vermelho" style="margin-top: auto;">
+        <div class="grid-2" style="margin-bottom: 1.25rem;">
+          <article class="card">
+            <small class="badge">World (Global E-waste Monitor 2024, data from 2022)</small>
+            <strong class="stat-figure" style="color: var(--red);">62 million tons</strong>
+            <h3>7.8 kg per Person / Year</h3>
+            <p>E-waste is growing fast, but documented recycling is not grown in same rhythm.</p>
+            <aside class="callout" style="margin-top: auto; border-left-color: var(--red);">
               Only 22% is recycled.
             </aside>
           </article>
 
-          <article class="metric-panel borda-amarela">
-            <small class="metric-category">Brazil &bull; 5th in the World</small>
-            <strong class="metric-figure texto-amarelo">2.4 million tons</strong>
-            <h3 class="metric-heading">2nd in the Americas</h3>
-            <p class="metric-detail">
-              Brazil produces about 2.4 million tons per year.
-            </p>
-            <aside class="warning-callout callout-vermelho" style="margin-top: auto;">
+          <article class="card">
+            <small class="badge">Brazil &bull; 5th in the World</small>
+            <strong class="stat-figure" style="color: var(--amber);">2.4 million tons</strong>
+            <h3>2nd in the Americas</h3>
+            <p>Brazil produces about 2.4 million tons per year.</p>
+            <aside class="callout" style="margin-top: auto; border-left-color: var(--red);">
               Only 3% goes to the right place. The other 97% does not.
             </aside>
           </article>
         </div>
 
-        <figure class="ratio-bar-box borda-vermelha">
-          <header class="ratio-label-row">
-            <h3 class="ratio-title">Where the 62 Million Tons Go Globally</h3>
+        <figure class="ratio-box">
+          <header class="ratio-header">
+            <h3>Where the 62 Million Tons Go Globally</h3>
             <span class="ratio-values"><strong>13.8 million</strong> formal &bull; <strong>34 million</strong> informal &bull; <strong>14 million</strong> landfill</span>
           </header>
-          <div class="ratio-bar-track">
-            <div class="ratio-segment green-seg" style="width: 22%;"></div>
-            <div class="ratio-segment" style="width: 55%; background: var(--amber);"></div>
-            <div class="ratio-segment red-seg" style="width: 23%;"></div>
+          <div class="ratio-bar">
+            <div style="width: 22%; background: var(--emerald);"></div>
+            <div style="width: 55%; background: var(--amber);"></div>
+            <div style="width: 23%; background: var(--red);"></div>
           </div>
           <ul class="ratio-legend">
-            <li class="legend-item"><span class="legend-dot green-dot" aria-hidden="true"></span> 13.8 million (22% formal recycling)</li>
-            <li class="legend-item"><span class="legend-dot" style="background: var(--amber);" aria-hidden="true"></span> 34 million (55% recycled without control)</li>
-            <li class="legend-item"><span class="legend-dot red-dot" aria-hidden="true"></span> 14 million (23% buried or left on the ground)</li>
+            <li class="legend-item"><span class="dot" style="background: var(--emerald);"></span> 13.8 million (22% formal recycling)</li>
+            <li class="legend-item"><span class="dot" style="background: var(--amber);"></span> 34 million (55% recycled without control)</li>
+            <li class="legend-item"><span class="dot" style="background: var(--red);"></span> 14 million (23% buried or left on the ground)</li>
           </ul>
         </figure>
       </div>
     </section>
 
+    <!-- Slide 5: Why We Discard Devices -->
     <section class="slide-section" id="slide-5" data-index="5">
       <div class="slide-wrapper">
-        <header class="section-title-group">
-          <h2 class="section-title">🛒 Slide 5 &bull; <span class="texto-azul">Why We Discard Devices</span></h2>
-          <p class="section-subtitle">The four main drivers: manufacturing, marketing, software, and habit.</p>
+        <header class="slide-header">
+          <h2 class="slide-title">🛒 Slide 5 &bull; <span style="color: var(--cyan);">Why We Discard Devices</span></h2>
+          <p class="slide-subtitle">The four main drivers: manufacturing, marketing, software, and habit.</p>
         </header>
 
-        <div class="matrix-split-2x2">
-          <div class="matrix-group">
-            <article class="cause-card borda-vermelha">
-              <span class="cause-index texto-vermelho" aria-hidden="true">🏭</span>
-              <small class="cause-tag-badge texto-vermelho">Manufacturing</small>
-              <h3 class="cause-card-title">Built to discart</h3>
-              <p class="cause-card-text">
-                Some batteries are hard to replace, and some parts are cheap. This is a debated topic: not every breakdown is planned.
-              </p>
+        <div class="matrix-2x2">
+          <div class="matrix-col">
+            <article class="card">
+              <span style="font-size: 1.5rem; margin-bottom: 0.4rem;">🏭</span>
+              <small class="badge" style="color: var(--red);">Manufacturing</small>
+              <h3>Built to discart</h3>
+              <p>Some batteries are hard to replace, and some parts are cheap. This is a debated topic: not every breakdown is planned.</p>
             </article>
 
-            <article class="cause-card borda-azul">
-              <span class="cause-index texto-azul" aria-hidden="true">💻</span>
-              <small class="cause-tag-badge texto-azul">Software &amp; Updates</small>
-              <h3 class="cause-card-title">Updates Slow It Down</h3>
-              <p class="cause-card-text">
-                Heavy updates can make a five-year-old phone feel slow.
-              </p>
+            <article class="card">
+              <span style="font-size: 1.5rem; margin-bottom: 0.4rem;">💻</span>
+              <small class="badge" style="color: var(--cyan);">Software &amp; Updates</small>
+              <h3>Updates Slow It Down</h3>
+              <p>Heavy updates can make a five-year-old phone feel slow.</p>
             </article>
           </div>
 
-          <div class="matrix-group">
-            <article class="cause-card borda-amarela">
-              <span class="cause-index texto-amarelo" aria-hidden="true">📣</span>
-              <small class="cause-tag-badge texto-amarelo">Consumer Pressure</small>
-              <h3 class="cause-card-title">Feels Old, but Still Works</h3>
-              <p class="cause-card-text">
-                Marketing can make a phone that still works feel old.
-              </p>
+          <div class="matrix-col">
+            <article class="card">
+              <span style="font-size: 1.5rem; margin-bottom: 0.4rem;">📣</span>
+              <small class="badge" style="color: var(--amber);">Consumer Pressure</small>
+              <h3>Feels Old, but Still Works</h3>
+              <p>Marketing can make a phone that still works feel old.</p>
             </article>
 
-            <article class="cause-card borda-verde">
-              <span class="cause-index texto-verde" aria-hidden="true">🗄️</span>
-              <small class="cause-tag-badge texto-verde">Social Habit</small>
-              <h3 class="cause-card-title">Kept "Just in Case"</h3>
-              <p class="cause-card-text">
-                Many people keep old phones in a drawer, just in case. This is the hardest cause to measure.
-              </p>
+            <article class="card">
+              <span style="font-size: 1.5rem; margin-bottom: 0.4rem;">🗄️</span>
+              <small class="badge" style="color: var(--emerald);">Social Habit</small>
+              <h3>Kept "Just in Case"</h3>
+              <p>Many people keep old phones in a drawer, just in case. This is the hardest cause to measure.</p>
             </article>
           </div>
         </div>
       </div>
     </section>
 
+    <!-- Slide 6: WEEE & REEE -->
     <section class="slide-section" id="slide-6" data-index="6">
       <div class="slide-wrapper">
-        <header class="section-title-group">
-          <h2 class="section-title">♻️ Slide 6 &bull; The Concept of <span class="texto-verde">WEEE &amp; REEE</span></h2>
-          <p class="section-subtitle">Any unused device with a plug, cord, or battery, and the 4-line classification.</p>
+        <header class="slide-header">
+          <h2 class="slide-title">♻️ Slide 6 &bull; The Concept of <span style="color: var(--emerald);">WEEE &amp; REEE</span></h2>
+          <p class="slide-subtitle">Any unused device with a plug, cord, or battery, and the 4-line classification.</p>
         </header>
 
-        <div class="grid-2-cols" style="margin-bottom: 1.25rem;">
-          <article class="concept-intro-card borda-verde">
-            <small class="concept-tag texto-verde">Everyday Rule</small>
-            <h3 class="concept-title">Technological Waste</h3>
-            <p class="concept-desc">
-              Any device with a plug, cord, battery, or circuit, we don't use anymore.
-            </p>
-            <p class="concept-desc">
-              From earbuds to refrigerators, they mix plastics, toxic substances, and precious metals.
-            </p>
-            <aside class="warning-callout callout-verde" style="margin-top: auto;">
+        <div class="grid-2" style="margin-bottom: 1.25rem;">
+          <article class="card">
+            <small class="badge" style="color: var(--emerald);">Everyday Rule</small>
+            <h3>Technological Waste</h3>
+            <p>Any device with a plug, cord, battery, or circuit, we don't use anymore.</p>
+            <p style="margin-top: 0.5rem;">From earbuds to refrigerators, they mix plastics, toxic substances, and precious metals.</p>
+            <aside class="callout" style="margin-top: auto; border-left-color: var(--emerald);">
               <strong>Simple rule:</strong> Do you not use it anymore, and does it have a plug, cord, battery, or circuit? Then it is e-waste.
             </aside>
           </article>
 
-          <article class="definition-card borda-azul">
-            <small class="card-tag-label texto-azul">Definition</small>
-            <h3 class="concept-title">When a Device Stops Working</h3>
-            <p class="definition-main-text">
-              Electrical and electronic devices that are old, broken, or do not work anymore.
-            </p>
-            <ul class="terms-grid">
-              <li class="term-item borda-azul">
-                <strong class="term-acronym texto-azul">WEEE</strong>
-                <span class="term-fullname">Waste Electrical &amp; Electronic Equipment</span>
-                <small class="term-scope">International Standard</small>
+          <article class="card">
+            <small class="badge" style="color: var(--cyan);">Definition</small>
+            <h3>When a Device Stops Working</h3>
+            <p>Electrical and electronic devices that are old, broken, or do not work anymore.</p>
+            <ul class="grid-2" style="margin-top: auto; gap: 0.75rem;">
+              <li class="item">
+                <strong style="font-family: var(--font-mono); font-size: 1.1rem; color: var(--cyan);">WEEE</strong>
+                <span style="font-size: 0.78rem; color: #fff; font-weight: 600; margin: 0.2rem 0;">Waste Electrical &amp; Electronic Equipment</span>
+                <small style="font-size: 0.72rem; color: var(--text-dim);">International Standard</small>
               </li>
-              <li class="term-item borda-verde">
-                <strong class="term-acronym texto-verde">REEE</strong>
-                <span class="term-fullname">Resíduos Eletroeletrônicos</span>
-                <small class="term-scope">Electronic waste in Portuguese</small>
+              <li class="item">
+                <strong style="font-family: var(--font-mono); font-size: 1.1rem; color: var(--emerald);">REEE</strong>
+                <span style="font-size: 0.78rem; color: #fff; font-weight: 600; margin: 0.2rem 0;">Resíduos Eletroeletrônicos</span>
+                <small style="font-size: 0.72rem; color: var(--text-dim);">Electronic waste in Portuguese</small>
               </li>
             </ul>
           </article>
         </div>
 
-        <section class="lines-classification">
-          <header class="classification-header">
-            <h3 class="classification-title">Classification in 4 Lines</h3>
+        <section class="card compact">
+          <header style="margin-bottom: 0.6rem;">
+            <small class="badge">Classification in 4 Lines</small>
           </header>
-          <ul class="lines-row">
-            <li class="line-box borda-verde">
-              <header class="line-header">
-                <span class="line-indicator green" aria-hidden="true"></span>
-                <strong class="line-name">Green Line</strong>
+          <ul class="grid-4">
+            <li class="item">
+              <header style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.4rem;">
+                <span class="dot" style="background: var(--emerald);"></span>
+                <strong style="color: #fff; font-size: 0.85rem;">Green Line</strong>
               </header>
-              <p class="line-desc"><strong>IT &amp; Mobile:</strong> Computers, laptops, tablets, and smartphones.</p>
+              <p><strong>IT &amp; Mobile:</strong> Computers, laptops, tablets, and smartphones.</p>
             </li>
-            <li class="line-box borda-amarela">
-              <header class="line-header">
-                <span class="line-indicator brown" aria-hidden="true"></span>
-                <strong class="line-name">Brown Line</strong>
+            <li class="item">
+              <header style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.4rem;">
+                <span class="dot" style="background: #b45309;"></span>
+                <strong style="color: #fff; font-size: 0.85rem;">Brown Line</strong>
               </header>
-              <p class="line-desc"><strong>Audio &amp; Video:</strong> TVs, monitors, soundbars, and audio gear.</p>
+              <p><strong>Audio &amp; Video:</strong> TVs, monitors, soundbars, and audio gear.</p>
             </li>
-            <li class="line-box borda-branca">
-              <header class="line-header">
-                <span class="line-indicator white" aria-hidden="true"></span>
-                <strong class="line-name">White Line</strong>
+            <li class="item">
+              <header style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.4rem;">
+                <span class="dot" style="background: #e2e8f0;"></span>
+                <strong style="color: #fff; font-size: 0.85rem;">White Line</strong>
               </header>
-              <p class="line-desc"><strong>Home Appliances:</strong> Refrigerators, stoves, and washing machines.</p>
+              <p><strong>Home Appliances:</strong> Refrigerators, stoves, and washing machines.</p>
             </li>
-            <li class="line-box borda-azul">
-              <header class="line-header">
-                <span class="line-indicator blue" aria-hidden="true"></span>
-                <strong class="line-name">Blue Line</strong>
+            <li class="item">
+              <header style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.4rem;">
+                <span class="dot" style="background: var(--cyan);"></span>
+                <strong style="color: #fff; font-size: 0.85rem;">Blue Line</strong>
               </header>
-              <p class="line-desc"><strong>Portables &amp; Tools:</strong> Small electric appliances and power tools.</p>
+              <p><strong>Portables &amp; Tools:</strong> Small electric appliances and power tools.</p>
             </li>
           </ul>
         </section>
       </div>
     </section>
 
+    <!-- Slide 7: Hope: Science is Taking Action -->
     <section class="slide-section" id="slide-7" data-index="7">
       <div class="slide-wrapper">
-        <header class="section-title-group">
-          <h2 class="section-title">🔋 Slide 7 &bull; <span class="texto-verde">Hope: Science is Taking Action</span></h2>
-          <p class="section-subtitle">New research develop new way to recycling.</p>
+        <header class="slide-header">
+          <h2 class="slide-title">🔋 Slide 7 &bull; <span style="color: var(--emerald);">Hope: Science is Taking Action</span></h2>
+          <p class="slide-subtitle">New research develop new way to recycling.</p>
         </header>
 
-        <div class="grid-3-cols">
-          <article class="action-card borda-azul">
-            <small class="action-step-badge texto-azul">🚗 Clean Mobility</small>
-            <h3 class="action-step-title">Electric Vehicle Batteries</h3>
-            <p class="action-step-text">
-              In lab tests, recycling recovers aluminum and lithium. It saves like 1 ton of rock per battery.
-            </p>
-            <aside class="warning-callout callout-azul" style="margin-top: auto;">
+        <div class="grid-3">
+          <article class="card">
+            <small class="badge" style="color: var(--cyan);">🚗 Clean Mobility</small>
+            <h3>Electric Vehicle Batteries</h3>
+            <p>In lab tests, recycling recovers aluminum and lithium. It saves like 1 ton of rock per battery.</p>
+            <aside class="callout" style="border-left-color: var(--cyan);">
               Recovers aluminum and lithium. Nickel and cobalt are not recovered by this method.
             </aside>
           </article>
 
-          <article class="action-card borda-verde">
-            <small class="action-step-badge texto-verde">💻 Microelectronics</small>
-            <h3 class="action-step-title">Processor Gold Recovery</h3>
-            <p class="action-step-text">
-              In lab tests, some methods recover 70% to 99% of the gold from processors.
-            </p>
-            <aside class="warning-callout callout-verde" style="margin-top: auto;">
+          <article class="card">
+            <small class="badge" style="color: var(--emerald);">💻 Microelectronics</small>
+            <h3>Processor Gold Recovery</h3>
+            <p>In lab tests, some methods recover 70% to 99% of the gold from processors.</p>
+            <aside class="callout" style="border-left-color: var(--emerald);">
               Lab tests: 70% to 99% of the gold. Silicon from finished chips is not recovered today.
             </aside>
           </article>
 
-          <article class="action-card borda-amarela">
-            <small class="action-step-badge texto-amarelo">🥇 Olympic Medals</small>
-            <h3 class="action-step-title">Tokyo: 5,000 Medals</h3>
-            <p class="action-step-text">
-              About 78,000 tons of donated electronics were used to make about 5,000 Olympic medals.
-            </p>
-            <aside class="warning-callout callout-amarelo" style="margin-top: auto;">
+          <article class="card">
+            <small class="badge" style="color: var(--amber);">🥇 Olympic Medals</small>
+            <h3>Tokyo: 5,000 Medals</h3>
+            <p>About 78,000 tons of donated electronics were used to make about 5,000 Olympic medals.</p>
+            <aside class="callout" style="border-left-color: var(--amber);">
               Metal recovered: about 30 kg of gold, 4 tons of silver, and 2.7 tons of bronze.
             </aside>
           </article>
         </div>
 
-        <aside class="ratio-bar-box borda-verde" style="margin-top: 1.25rem;">
-          <p class="panel-text" style="color: var(--text-muted); text-align: center;">
+        <aside class="ratio-box" style="margin-top: 1.25rem;">
+          <p style="color: var(--text-muted); text-align: center; font-size: 0.88rem;">
             Much of this metal is still sitting in people's drawers.
           </p>
         </aside>
       </div>
     </section>
 
+    <!-- Slide 8: What to Do -->
     <section class="slide-section" id="slide-8" data-index="8">
       <div class="slide-wrapper">
-        <header class="section-title-group">
-          <h2 class="section-title">✅ Slide 8 &bull; <span class="texto-verde">What to Do: The Practical Guide</span></h2>
-          <p class="section-subtitle">Simple actions in two steps: while you use the device, and when you throw it away.</p>
+        <header class="slide-header">
+          <h2 class="slide-title">✅ Slide 8 &bull; <span style="color: var(--emerald);">What to Do: The Practical Guide</span></h2>
+          <p class="slide-subtitle">Simple actions in two steps: while you use the device, and when you throw it away.</p>
         </header>
 
-        <div class="grid-2-cols" style="margin-bottom: 1.25rem;">
-          <article class="fase-column borda-azul">
-            <header class="fase-header">
-              <small class="action-step-badge texto-azul">Phase 1</small>
-              <h3 class="fase-title">In Use &amp; Maintenance</h3>
+        <div class="grid-2" style="margin-bottom: 1.25rem;">
+          <article class="card">
+            <header style="border-bottom: 1px solid var(--border); padding-bottom: 0.5rem; margin-bottom: 0.5rem;">
+              <small class="badge" style="color: var(--cyan);">Phase 1</small>
+              <h3>In Use &amp; Maintenance</h3>
             </header>
-            <ul class="layer-stack">
-              <li class="fase-item">
-                <h4 class="fase-item-title texto-azul">🛠️ Care before replacing</h4>
-                <p class="fase-item-desc">Update the software and change the battery before buying a new phone.</p>
+            <ul class="item-list">
+              <li class="item">
+                <h4 style="color: var(--cyan);">🛠️ Care before replacing</h4>
+                <p>Update the software and change the battery before buying a new phone.</p>
               </li>
-              <li class="fase-item">
-                <h4 class="fase-item-title texto-azul">🛒 Buy used</h4>
-                <p class="fase-item-desc">Buy used phones when you can. Take old car batteries back to the shop when you buy a new one.</p>
+              <li class="item">
+                <h4 style="color: var(--cyan);">🛒 Buy used</h4>
+                <p>Buy used phones when you can. Take old car batteries back to the shop when you buy a new one.</p>
               </li>
             </ul>
           </article>
 
-          <article class="fase-column borda-amarela">
-            <header class="fase-header">
-              <small class="action-step-badge texto-amarelo">Phase 2</small>
-              <h3 class="fase-title">In Conscious Disposal</h3>
+          <article class="card">
+            <header style="border-bottom: 1px solid var(--border); padding-bottom: 0.5rem; margin-bottom: 0.5rem;">
+              <small class="badge" style="color: var(--amber);">Phase 2</small>
+              <h3>In Conscious Disposal</h3>
             </header>
-            <ul class="layer-stack">
-              <li class="fase-item">
-                <h4 class="fase-item-title texto-amarelo">🗄️ Don't keep it in a drawer</h4>
-                <p class="fase-item-desc">Give away or recycle what you don't use. Old batteries in drawers can become dangerous.</p>
+            <ul class="item-list">
+              <li class="item">
+                <h4 style="color: var(--amber);">🗄️ Don't keep it in a drawer</h4>
+                <p>Give away or recycle what you don't use. Old batteries in drawers can become dangerous.</p>
               </li>
-              <li class="fase-item">
-                <h4 class="fase-item-title texto-amarelo">📍 Take it to a collection point</h4>
-                <p class="fase-item-desc">Go to an official collection point (PEV). Check the hours and what they accept before you go.</p>
+              <li class="item">
+                <h4 style="color: var(--amber);">📍 Take it to a collection point</h4>
+                <p>Go to an official collection point (PEV). Check the hours and what they accept before you go.</p>
               </li>
             </ul>
           </article>
         </div>
 
-        <aside class="ratio-bar-box borda-verde">
-          <header class="ratio-label-row">
-            <h3 class="ratio-title">🌍 UN estimate: If the world recycled all its e-waste</h3>
-            <span class="ratio-values texto-verde"><strong>900 million tons</strong> of rock saved (estimate)</span>
+        <aside class="ratio-box">
+          <header class="ratio-header">
+            <h3>🌍 UN estimate: If the world recycled all its e-waste</h3>
+            <span class="ratio-values"><strong style="color: var(--emerald);">900 million tons</strong> of rock saved (estimate)</span>
           </header>
-          <p class="panel-text" style="margin-top: 0.35rem; color: var(--text-muted);">
-            If all e-waste from 2022 were recycled, about <strong>900 million tons of rock</strong> might not need to be mined.
+          <p style="margin-top: 0.35rem; color: var(--text-muted); font-size: 0.88rem;">
+            If all e-waste from 2022 were recycled, about <strong style="color: #fff;">900 million tons of rock</strong> might not need to be mined.
           </p>
         </aside>
       </div>
