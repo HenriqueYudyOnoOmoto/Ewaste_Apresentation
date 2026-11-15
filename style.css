@@ -416,11 +416,13 @@ html, body {
 .callout-verde { border-left-color: var(--emerald) !important; }
 .callout-azul { border-left-color: var(--cyan) !important; }
 
-.borda-verde { border-color: var(--emerald) !important; }
-.borda-amarela { border-color: var(--amber) !important; }
-.borda-azul { border-color: var(--cyan) !important; }
-.borda-vermelha { border-color: var(--red) !important; }
-.borda-branca { border-color: rgba(226, 232, 240, 0.7) !important; }
+.borda-verde,
+.borda-amarela,
+.borda-azul,
+.borda-vermelha,
+.borda-branca {
+  border-color: var(--border-light) !important;
+}
 
 .texto-verde, .cover-highlight, .outro-highlight { color: var(--emerald-light) !important; }
 .texto-amarelo { color: var(--amber) !important; }
