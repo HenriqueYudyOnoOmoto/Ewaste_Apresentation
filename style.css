@@ -124,6 +124,13 @@ html, body {
   align-items: stretch;
 }
 
+/* Espaçamento automático entre grids e elementos seguintes */
+.grid-2 + .ratio-box,
+.grid-3 + .ratio-box,
+.grid-2 + .card {
+  margin-top: 1.25rem;
+}
+
 .matrix-2x2 {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -152,6 +159,19 @@ html, body {
 .card.compact {
   padding: 1rem 1.25rem;
   border-radius: 10px;
+}
+.card.compact > header {
+  margin-bottom: 0.6rem;
+}
+
+.card-divider {
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.card p + p {
+  margin-top: 0.5rem;
 }
 
 /* Tipografia Padronizada dos Cards */
@@ -195,6 +215,22 @@ html, body {
   margin-top: 0.75rem;
 }
 
+.item-list.featured {
+  flex: 1;
+  justify-content: center;
+  gap: 1rem;
+}
+.item-list.featured .item {
+  padding: 1.1rem 1.25rem;
+}
+.item-list.featured h4 {
+  font-size: 1.1rem;
+  margin-bottom: 0.35rem;
+}
+.item-list.featured p {
+  font-size: 0.9rem;
+}
+
 .item {
   background: var(--bg-subtle);
   border: 1px solid var(--border);
@@ -217,6 +253,40 @@ html, body {
   line-height: 1.35;
 }
 
+/* Grid de Definição (WEEE & REEE) */
+.def-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.75rem;
+  margin-top: auto;
+}
+.def-grid .item strong {
+  font-family: var(--font-mono);
+  font-size: 1.1rem;
+}
+.def-grid .item span {
+  font-size: 0.78rem;
+  color: #fff;
+  font-weight: 600;
+  margin: 0.2rem 0;
+}
+.def-grid .item small {
+  font-size: 0.72rem;
+  color: var(--text-dim);
+}
+
+/* Cabeçalho das 4 Linhas */
+.line-header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.4rem;
+}
+.line-header strong {
+  color: #fff;
+  font-size: 0.85rem;
+}
+
 /* Callout / Aviso Padronizado */
 .callout {
   background: var(--bg-subtle);
@@ -237,6 +307,20 @@ html, body {
   padding: 1rem 1.25rem;
   display: flex;
   flex-direction: column;
+}
+
+.ratio-box p {
+  margin-top: 0.4rem;
+  color: var(--text-muted);
+  font-size: 0.88rem;
+  line-height: 1.45;
+}
+.ratio-box p strong {
+  color: #fff;
+}
+.ratio-box.centered p {
+  text-align: center;
+  margin-top: 0;
 }
 
 .ratio-header {
@@ -352,7 +436,8 @@ body[data-aspect="portrait"] .cover-metrics,
 body[data-aspect="portrait"] .grid-4,
 body[data-aspect="portrait"] .grid-3,
 body[data-aspect="portrait"] .grid-2,
-body[data-aspect="portrait"] .matrix-2x2 {
+body[data-aspect="portrait"] .matrix-2x2,
+body[data-aspect="portrait"] .def-grid {
   grid-template-columns: 1fr;
   gap: 0.65rem;
 }
