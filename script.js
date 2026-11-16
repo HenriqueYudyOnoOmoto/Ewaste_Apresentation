@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
   const container = document.getElementById('slidesContainer');
-  const slides = Array.from(document.querySelectorAll('.secao-slide'));
+  const slides = Array.from(document.querySelectorAll('.slide-section'));
   if (!container || !slides.length) return;
 
   let current = 0;
@@ -68,7 +68,7 @@ document.addEventListener('DOMContentLoaded', () => {
     document.body.setAttribute('data-aspect', mode);
     const scale = Math.max(0.1, Math.min((w * 0.96) / baseW, (h * 0.96) / baseH));
     const scaleVal = scale.toFixed(4);
-    document.querySelectorAll('.quadro-slide').forEach((el) => {
+    document.querySelectorAll('.slide-wrapper').forEach((el) => {
       el.style.width = baseW + 'px';
       el.style.maxWidth = baseW + 'px';
       el.style.minHeight = baseH + 'px';
