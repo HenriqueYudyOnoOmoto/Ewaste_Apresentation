@@ -178,7 +178,7 @@ html, body {
 
 .stat-figure {
   font-size: 2.2rem;
-  font-weight: 800;
+  font-weight: 700;
   line-height: 1;
   margin-bottom: 0.4rem;
 }
@@ -241,7 +241,7 @@ html, body {
 .def-grid .item span {
   font-size: 0.78rem;
   color: #fff;
-  font-weight: 600;
+  font-weight: 700;
   margin: 0.2rem 0;
 }
 .def-grid .item small {
@@ -304,7 +304,7 @@ html, body {
 }
 .ratio-header h3 {
   font-size: 0.85rem;
-  font-weight: 600;
+  font-weight: 700;
   color: #fff;
   margin: 0;
 }
@@ -347,7 +347,7 @@ html, body {
 }
 .cover-title {
   font-size: 2.5rem;
-  font-weight: 800;
+  font-weight: 700;
   line-height: 1.15;
   letter-spacing: -0.03em;
   color: #fff;
@@ -380,7 +380,7 @@ html, body {
 }
 .metric-chip strong {
   font-size: 1.5rem;
-  font-weight: 800;
+  font-weight: 700;
   line-height: 1.1;
 }
 .metric-chip small {
