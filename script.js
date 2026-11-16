@@ -67,9 +67,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
     document.body.setAttribute('data-aspect', mode);
     const scale = Math.max(0.1, Math.min((w * 0.96) / baseW, (h * 0.96) / baseH));
-    document.documentElement.style.setProperty('--scale', scale.toFixed(4));
-    document.documentElement.style.setProperty('--base-w', baseW + 'px');
-    document.documentElement.style.setProperty('--base-h', baseH + 'px');
+    const scaleVal = scale.toFixed(4);
+    document.querySelectorAll('.slide-wrapper').forEach((el) => {
+      el.style.width = baseW + 'px';
+      el.style.maxWidth = baseW + 'px';
+      el.style.minHeight = baseH + 'px';
+      el.style.transform = `scale(${scaleVal})`;
+    });
   }
 
   let resizeTicking = false;
