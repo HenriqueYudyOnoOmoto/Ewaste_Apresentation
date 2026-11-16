@@ -20,7 +20,6 @@ document.addEventListener('DOMContentLoaded', () => {
   );
   slides.forEach((s) => observer.observe(s));
 
-  // Keyboard navigation
   document.addEventListener('keydown', (e) => {
     const nextKeys = ['ArrowDown', 'ArrowRight', ' ', 'PageDown'];
     const prevKeys = ['ArrowUp', 'ArrowLeft', 'PageUp'];
@@ -47,7 +46,6 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   });
 
-  // Click to advance
   document.addEventListener('click', (e) => {
     if (e.button !== 0 || e.target.closest('a, button, input, textarea, select')) return;
     const sel = window.getSelection();
@@ -55,7 +53,6 @@ document.addEventListener('DOMContentLoaded', () => {
     goTo(current + 1);
   });
 
-  // Responsive scaling
   function updateScaling() {
     const w = window.innerWidth, h = window.innerHeight;
     if (h <= 0) return;

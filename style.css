@@ -80,7 +80,6 @@ html, body {
   flex-shrink: 0;
 }
 
-/* Header Padronizado de Cada Slide */
 .slide-header {
   margin-bottom: 1.75rem;
   width: 100%;
@@ -102,7 +101,6 @@ html, body {
   max-width: 760px;
 }
 
-/* Grids Padronizados */
 .grid-2 {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -124,7 +122,6 @@ html, body {
   align-items: stretch;
 }
 
-/* Espaçamento automático entre grids e elementos seguintes */
 .grid-2 + .ratio-box,
 .grid-3 + .ratio-box,
 .grid-2 + .card {
@@ -145,7 +142,6 @@ html, body {
 }
 .matrix-col .card { flex: 1; }
 
-/* Card Padronizado Único */
 .card {
   background: var(--bg-card);
   border: 1px solid var(--border);
@@ -174,7 +170,6 @@ html, body {
   margin-top: 0.5rem;
 }
 
-/* Tipografia Padronizada dos Cards */
 .badge {
   font-family: var(--font-mono);
   font-size: 0.72rem;
@@ -207,7 +202,6 @@ html, body {
   margin-bottom: 0.4rem;
 }
 
-/* Itens e Sub-listas */
 .item-list {
   display: flex;
   flex-direction: column;
@@ -253,7 +247,6 @@ html, body {
   line-height: 1.35;
 }
 
-/* Grid de Definição (WEEE & REEE) */
 .def-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -275,7 +268,6 @@ html, body {
   color: var(--text-dim);
 }
 
-/* Cabeçalho das 4 Linhas */
 .line-header {
   display: flex;
   align-items: center;
@@ -287,7 +279,6 @@ html, body {
   font-size: 0.85rem;
 }
 
-/* Callout / Aviso Padronizado */
 .callout {
   background: var(--bg-subtle);
   border-left: 3px solid var(--amber);
@@ -299,7 +290,6 @@ html, body {
   color: var(--text-main);
 }
 
-/* Caixa de Proporção / Barra */
 .ratio-box {
   background: var(--bg-card);
   border: 1px solid var(--border);
@@ -369,7 +359,6 @@ html, body {
   display: inline-block;
 }
 
-/* Capa */
 .cover-slide { text-align: center; }
 .cover-wrapper {
   max-width: 900px;
@@ -422,7 +411,6 @@ html, body {
   margin-top: 0.25rem;
 }
 
-/* Responsividade */
 body[data-aspect="4-3"] .slide-wrapper {
   padding: 1.25rem 1.5rem;
 }
